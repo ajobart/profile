@@ -1,0 +1,45 @@
+@media screen and (max-width: 1250px) {
+  img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .card {
+    height: 55%;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    height: 70%;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .card {
+    height: 70%;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .card {
+    height: 70%;
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    height: 70%;
+    width: 85%;
+  }
+  p {
+    font-size: small;
+    padding-bottom: 10px;
+  }
+}

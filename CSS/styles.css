@@ -1,0 +1,124 @@
+
+
+* {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+.section1 {
+  height: 92vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgb(125, 125, 125);
+  border-left: 1px solid rgb(125, 125, 125);
+  border-radius: 35px;
+  height: 75%;
+  width: 25%;
+  border: 20%;
+  color: white;
+  padding: 30px 45px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.btn-contact {
+  height: 200px;
+}
+
+.btn-contact a {
+  color: white;
+  display: flex;
+  text-transform: uppercase;
+  line-height: 2.5;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  background-color: black;
+  font-size: 20px;
+  font-weight: 200;
+  box-shadow: 0 2px 16px 3px #4e4e4e;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+p {
+  font-size: larger;
+  padding-bottom: 10px;
+}
+
+.btn {
+  border: hidden;
+  background-color: black;
+  color: white;
+  font-size: large;
+  height: 50px;
+  width: 150px;
+  transition: ease-in-out;
+}
+
+.btn:hover {
+  background-color: white;
+  border: solid;
+  border-color: black;
+  color: black;
+}
+
+.footer {
+  height: 8vh;
+  background-color: rgb(48, 48, 48);
+  text-align: center;
+}
+
+.fa-linkedin {
+  color: white;
+  font-size: 40px;
+}
+
+.fa-linkedin:hover {
+  color: #0073B1;
+}
+
+.fa-github {
+  color: white;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.fa-github:hover {
+  color: #0073B1;
+}
